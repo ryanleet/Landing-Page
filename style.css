@@ -15,7 +15,7 @@ body {
   background-color: #1F2937;
   display: flex;
   justify-content:space-between;
-  gap: 12px
+  gap: 12px;
   align-items: center;
   padding-left: 50px;
   padding-right: 50px;
@@ -122,8 +122,6 @@ button {
   font-size: 35px;
   font-weight: bold;
 }
-
-.caption { }
 
 .quote {
   background-color: #1F2937;
