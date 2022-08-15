@@ -17,17 +17,21 @@ body {
   justify-content:space-between;
   gap: 12px;
   align-items: center;
-  padding-left: 50px;
-  padding-right: 50px;
-  font-size: 32px;
+  padding-left: 100px;
+  padding-right: 100px;
   font-weight: 900;
+}
+
+a:hover {
+  font-size: 30px;
+  background-color: #3882F6;
 }
 
 a {
   color: white;
   text-decoration: none;
   font-size: 24px;
-  padding: 20px;
+  padding: 24px;
 }
 
 .intro {
@@ -143,4 +147,23 @@ button {
   align-items: center;
   justify-content: center;
 
+}
+
+
+.centerme {
+  background-image: url(./images/saffron.png);
+  opacity: 0.5;
+}
+
+.hey, .back {
+  font-size: 60px;
+  text-align: center;
+  padding: 90px;
+  opacity: 1;
+
+}
+
+.back {
+  display: flex;
+  justify-content: center;
 }
